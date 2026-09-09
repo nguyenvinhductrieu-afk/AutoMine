@@ -12,7 +12,7 @@ import net.minecraft.client.Minecraft;
 
 public class WatermarkHud extends HudElement {
 
-    private final MinecraftClient mc = Minecraft.getInstance();
+    private final Minecraft mc = Minecraft.getInstance();
 
     public static final HudElementInfo<WatermarkHud> INFO = new HudElementInfo<>(
         AddonTemplate.HUD_GROUP,
